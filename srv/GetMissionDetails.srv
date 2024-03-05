@@ -1,3 +1,13 @@
-string mission_id
+string mission_identifier
+
 ---
-Mission[] mission_details
+bool mission_found
+
+string mission_name
+string mission_id
+string mission_instance_id
+string robot_id
+
+Task[] task_list
+
+# Only one of the parameters (id or name or instance_id) need to be provided for fetching a mission
